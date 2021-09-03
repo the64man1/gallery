@@ -21,8 +21,6 @@
     background-position: center;
     
     background-repeat: no-repeat;
-    /* min-width: 100%;
-    min-height: 100%; */
     display: flex;
     position: relative;
     justify-content: center;
@@ -80,14 +78,12 @@ color: white;
   left: 15px;
   bottom: 70px;
   font-weight: bold;
-  /* background-color:grey; */
  
 }
 
 .subtitle {
   font-size: 40px;
   color: whitesmoke;
-  /* background-color:grey; */
   display:center;
   position: relative;
   left: 15px;
@@ -96,16 +92,7 @@ color: white;
 }
 
 .navbar{
-/* background: rgba(236, 228, 228, 0.813);
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 7.0px );
--webkit-backdrop-filter: blur( 7.0px );
-border-radius: 3px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-color: white; */
-/* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
 position: relative;
-/* top:  */
 left: 750px;
   
 }
@@ -124,199 +111,3 @@ left: 750px;
 .section {
   background-color:gray
 }
-
-/* .section {
-  
-} */
-/* .has-background-white {
-background: rgba(236, 228, 228, 0.813);
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 7.0px );
--webkit-backdrop-filter: blur( 7.0px ); 
-}*/
-
-/* .has-text-black */
-
-/* .title {
-  color: $title-color
-  @if $title-family
-    font-family: $title-family
-  font-size: $title-size
-  font-weight: $title-weight
-  line-height: $title-line-height
-  strong
-    color: $title-strong-color
-    font-weight: $title-strong-weight
-  &:not(.is-spaced) + .subtitle
-    margin-top: $subtitle-negative-margin
-  // Sizes
-  @each $size in $sizes
-    $i: index($sizes, $size)
-    &.is-#{$i}
-      font-size: $size
-} */
-
-/* :root {
-  --primary: #3d5852;
-  --secondary: #86938f;
-  --tertiary: #5e877f;
-  --quatrinary: #6c6b67;
-  --light: #e3e4e3;
-  --dark: #182c23;
-  --error: rgb(228, 46, 1);
-  --border-radius: 0.3rem;
-}
-
-body {
-  font-family: Arial;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  justify-content: flex-start;
-  background-color: var(--quatrinary);
-}
-
-a {
-  color: var(--dark);
-  text-decoration: none;
-}
-
-a:visited {
-  color: inherit;
-}
-
-header {
-  padding: 40px;
-  text-align: center;
-  background: var(--primary);
-  color: var(--light);
-}
-
-main {
-  display: flex;
-  flex-wrap: wrap;
-  flex-grow: 1;
-}
-
-aside {
-  flex: 0;
-  background-color: var(--tertiary);
-  padding: 80px;
-  text-align: left;
-  color: var(--light);
-}
-
-nav {
-  display: flex;
-  background-color: var(--secondary);
-}
-
-nav a {
-  color: var(--light);
-  padding: 14px 20px;
-  text-decoration: none;
-  text-align: center;
-}
-
-nav a:hover {
-  color: var(--secondary);
-  background-color: var(--dark);
-}
-
-.gallery {
-  flex: 4;
-  background-color: #fff;
-  padding: 50px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.btn-no-style {
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 100%;
-  transition: color 0.1s;
-  margin-left: 16px;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.painting {
-  width: 50%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
-}
-
-.painting-details {
-  text-align: center;
-  padding: 10px 20px;
-  font-weight: bold;
-}
-
-/* CARDS */
-/* .card {
-  margin: 20px;
-  flex: 0 1 300px;
-  border: 7px double var(--dark);
-  border-radius: 10px;
-  background-color: var(--light);
-  color: var(--dark);
-}
-
-.login-card {
-  margin: 0 0 20px 0;
-  flex: 0 0 50%;
-  max-width: 50%;
-  padding: 5px;
-  border: 3px solid var(--dark);
-  border-radius: var(--border-radius);
-  border-style: double;
-  border-width: thick;
-  background-color: #577a7c;
-  color: var(--light);
-}
-
-.card header {
-  color: var(--light);
-  font-weight: bold;
-  text-transform: uppercase;
-  margin: 0;
-  background-color: var(--tertiary);
-  padding: 0.625rem;
-  border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
-}
-
-.card-body {
-  font-size: 1.4rem;
-  text-align: center;
-  font-weight: bold;
-}
-
-.gallery-name {
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  text-shadow: 2px 2px 5px var(--secondary);
-  border: 10px groove var(--light);
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-right: 100px;
-  padding-left: 100px;
-} */
-
-/* LAYOUT */
-/* .container {
-  display: flex;
-  flex-flow: column wrap;
-  align-content: flex-start;
-  align-items: center;
-} */

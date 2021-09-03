@@ -31,5 +31,3 @@ UserType.init(
         modelName: "User_Type"
     }
 );
-
-// module.exports = UserType;
